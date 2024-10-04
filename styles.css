@@ -206,9 +206,8 @@ fieldset{
     grid-template-columns: 0.25fr 6fr 0.25fr 6fr;
     gap: 1rem;
     margin: 1rem 0;
-    border-color: var(--red);
     padding: 0.35em 0.75em 0.625em 0.75em;
-    border: 2px groove var(--dk-gray);
+    border: 2px groove var(--red);
 }
 
 legend {
@@ -297,6 +296,7 @@ code{
 /* for the pre block */
 pre{
     font-family: var(--code-fonts);
+    margin: 1em 0;
 }
 
 pre code{
